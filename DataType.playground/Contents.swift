@@ -37,9 +37,15 @@ type(of: test)
 var text: String = "Hello, World!"
 text = "Swift"
 type(of: text)
+//타입 추론
 
-//Any: 모든타입을 지칭하는 키워드
-var sampleAny: Any = 100
+let test2 = 100
+type(of: test)
+
+var text2: String = "Hello, World!"
+text2 = "Swift"
+type(of: text2)
+
 
 
 //nil: 없음, 존재하지 않음을 나타내는 키워드
@@ -48,4 +54,8 @@ type(of: sample)
 
 var sample2: String? = nil
 type(of: sample2)
+
+
+
+
 
